@@ -44,12 +44,12 @@ cdn link :
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/phothinmg/burmese-fonts@main/dist/burmese/index.css"
+  href="https://cdn.jsdelivr.net/gh/phothinmg/burmese-fonts@main/dist/bit/index.css"
 />
 ```
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/phothinmg/burmese-fonts@main/dist/burmese/index.css");
+@import url("https://cdn.jsdelivr.net/gh/phothinmg/burmese-fonts@main/dist/bit/index.css");
 ```
 
 ```css
