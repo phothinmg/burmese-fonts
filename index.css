@@ -45,3 +45,9 @@
   font-style: normal;
   font-display: swap;
 }
+
+@import url("https://cdn.jsdelivr.net/gh/phothinmg/burmese-fonts@main/dist/burmese/index.css");
+
+* {
+  font-family: burmese !important;
+}
