@@ -1,9 +1,0 @@
-npx ttf2eot 028.ttf 028.eot
-
-npx ttf2svg 028.ttf 028.svg
-
-cat 028.ttf | npx ttf2woff2 > 028.woff2
-
-====================================================================
-
-https://netpanchi.com/viewartwork/1126 - mono
