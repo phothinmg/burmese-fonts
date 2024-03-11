@@ -31,6 +31,35 @@ cdn link :
 
 ---
 
+---
+
+## rfa bit
+
+font-family : burmese-bit
+
+source : https://www.rfa.org/burmese/help/bit_zip
+
+cdn link :
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/phothinmg/burmese-fonts@main/dist/burmese/index.css"
+/>
+```
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/phothinmg/burmese-fonts@main/dist/burmese/index.css");
+```
+
+```css
+* {
+  font-family: burmese-bit !important;
+}
+```
+
+---
+
 ## mono
 
 font-family : burmese-mono

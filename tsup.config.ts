@@ -4,7 +4,7 @@ export default defineConfig({
   entry: [
     "index.css",
   ],
-  outDir: "./dist/umoe",
+  outDir: "./dist/bit",
   // splitting: false,
   sourcemap: true,
   clean: true,
