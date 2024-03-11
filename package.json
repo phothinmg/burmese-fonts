@@ -1,4 +1,7 @@
 {
+	"name": "burmese-fonts",
+	"description": "Collection of some bundled burmese foints",
+	"author": "Pho Thin Maung",
 	"devDependencies": {
 		"ttf2eot": "^3.1.0",
 		"ttf2svg": "^1.2.0",
