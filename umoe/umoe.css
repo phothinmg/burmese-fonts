@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "umoe";
+  src: url("./fonts/umoe/umoe.woff2") format("woff2"),
+    url("./fonts/umoe/umoe.woff") format("woff"),
+    url("./fonts/umoe/umoe.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

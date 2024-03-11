@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "burmese";
+  src: url("./fonts/burmese/burmese.eot") format("embedded-opentype"),
+    url("./fonts/burmese/burmese.woff2") format("woff2"),
+    url("./fonts/burmese/burmese.woff") format("woff"),
+    url("./fonts/burmese/burmese.ttf") format("truetype"),
+    url("./fonts/burmese/burmese.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "burmese";
+  src: url("./fonts/burmese/burmese-en.eot") format("embedded-opentype"),
+    url("./fonts/burmese/burmese-en.woff2") format("woff2"),
+    url("./fonts/burmese/burmese-en.woff") format("woff"),
+    url("./fonts/burmese/burmese-en.ttf") format("truetype"),
+    url("./fonts/burmese/burmese-en.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
