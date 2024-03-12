@@ -3,23 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./fonts.css" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+
     <title>Burmese Fonts</title>
-    <style>
-      body {
-        font-family: burmese-bit !important;
-      }
-    </style>
   </head>
   <body>
-    <h1>Burmese Fonts</h1>
-    <h1>သီဟိုဠ်မှ ညဏ်ကြီးရှင်သည် ဆေးညွှန်းစာကို ဇလွန်စျေးဗာဒံပင်ထက် အဓိဌန်လျက် ဂဃနဏ ဖတ်ခဲ့သည်။</h1>
-    <h2>သီဟိုဠ်မှ ညဏ်ကြီးရှင်သည် ဆေးညွှန်းစာကို ဇလွန်စျေးဗာဒံပင်ထက် အဓိဌန်လျက် ဂဃနဏ ဖတ်ခဲ့သည်။</h2>
-    <h3>သီဟိုဠ်မှ ညဏ်ကြီးရှင်သည် ဆေးညွှန်းစာကို ဇလွန်စျေးဗာဒံပင်ထက် အဓိဌန်လျက် ဂဃနဏ ဖတ်ခဲ့သည်။</h3>
-    <h4>သီဟိုဠ်မှ ညဏ်ကြီးရှင်သည် ဆေးညွှန်းစာကို ဇလွန်စျေးဗာဒံပင်ထက် အဓိဌန်လျက် ဂဃနဏ ဖတ်ခဲ့သည်။</h4>
-    <h5>သီဟိုဠ်မှ ညဏ်ကြီးရှင်သည် ဆေးညွှန်းစာကို ဇလွန်စျေးဗာဒံပင်ထက် အဓိဌန်လျက် ဂဃနဏ ဖတ်ခဲ့သည်။</h5>
-    <h6>သီဟိုဠ်မှ ညဏ်ကြီးရှင်သည် ဆေးညွှန်းစာကို ဇလွန်စျေးဗာဒံပင်ထက် အဓိဌန်လျက် ဂဃနဏ ဖတ်ခဲ့သည်။</h6>
-    <p>သီဟိုဠ်မှ ညဏ်ကြီးရှင်သည် ဆေးညွှန်းစာကို ဇလွန်စျေးဗာဒံပင်ထက် အဓိဌန်လျက် ဂဃနဏ ဖတ်ခဲ့သည်။</p>
+    <h1 class="title">Burmese Fonts</h1>
+    <div class="top" id="top">
+      <label for="tvalue">Font Name</label>
+      <select name="tvalue" id="tvalue">
+        <option value=""></option>
+        <option value="burmese">Burmese</option>
+        <option value="burmese-020">Burma 020</option>
+        <option value="burmese-028">Burma 028</option>
+        <option value="burmese-bit">Bit</option>
+        <option value="burmese-mono">Mono</option>
+        <option value="burmese-umoe">Umoe</option>
+        <option value="burmese-myayphu">MyayPhu</option>
+      </select>
+      <button class="run" id="run"><i class="ti ti-player-play"></i></button>
+
+      <a href="javascript: location. reload();" class="refresh"
+        ><i class="ti ti-refresh"></i
+      ></a>
+
+      <button id="theme"></button>
+    </div>
+    <div class="hero">
+      <textarea
+        name="input"
+        id="input"
+        cols="30"
+        rows="25"
+        placeholder="<!-- Type Hear -->"
+      ></textarea>
+      <div class="display" id="display"></div>
+    </div>
+    <script src="./index.js"></script>
   </body>
 </html>
