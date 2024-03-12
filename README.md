@@ -2,6 +2,8 @@
 
 **ကျနော်၏ project တွေမှာအသုံးပြုဖိုအတွက် ဗမာ fonts တွေ bundle လုပ်ပီးသုံးဖြစ်ပါသည်။ မူလ font file များ ၏ ဖန်တီးသူများ သိုမဟုတ် ကျနော် ရယူခဲ့သော source များအား ဖော်ပြထားပါသည်။ ကျနော် သည် အကျိုးအမြတ် တစ်စုံတစ်ရာ အတွက် ပြုလုပ်ထားခြင်းမဟုတ်ပါ။ မူလ fonts file ဖန်တီးသူများအနေနှင့် နှစ်သက်မှု မရှိပါက -> [Discussion](https://github.com/phothinmg/burmese-fonts/discussions/1) <- တွင်အသိပေးပြောကြားနိုင်ပါသည်။**
 
+Playground: : https://phothinmg.github.io/burmese-fonts/
+
 ---
 
 ## burmese
